@@ -196,7 +196,7 @@
 				TargetAttributes = {
 					185785621E8A3BF400B75805 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 946RV72GY8;
+						DevelopmentTeam = 9Z59VK8KP3;
 						ProvisioningStyle = Automatic;
 					};
 					185785761E8A3BF400B75805 = {
@@ -421,7 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 946RV72GY8;
+				DEVELOPMENT_TEAM = 9Z59VK8KP3;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.immanent.test.app;
@@ -438,7 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 946RV72GY8;
+				DEVELOPMENT_TEAM = 9Z59VK8KP3;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.immanent.test.app;
