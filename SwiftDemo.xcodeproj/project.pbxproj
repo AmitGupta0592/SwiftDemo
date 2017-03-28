@@ -14,6 +14,7 @@
 		185785711E8A3BF400B75805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857856F1E8A3BF400B75805 /* LaunchScreen.storyboard */; };
 		1857857C1E8A3BF400B75805 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857857B1E8A3BF400B75805 /* SwiftDemoTests.swift */; };
 		185785871E8A3BF400B75805 /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185785861E8A3BF400B75805 /* SwiftDemoUITests.swift */; };
+		185785971E8A3D4500B75805 /* checkered (6).png in Resources */ = {isa = PBXBuildFile; fileRef = 185785961E8A3D4500B75805 /* checkered (6).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		185785821E8A3BF400B75805 /* SwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185785861E8A3BF400B75805 /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		185785881E8A3BF400B75805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185785961E8A3D4500B75805 /* checkered (6).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkered (6).png"; path = "../../../../Downloads/checkered (6).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		185785651E8A3BF400B75805 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				185785961E8A3D4500B75805 /* checkered (6).png */,
 				185785661E8A3BF400B75805 /* AppDelegate.swift */,
 				185785681E8A3BF400B75805 /* ViewController.swift */,
 				1857856A1E8A3BF400B75805 /* Main.storyboard */,
@@ -193,7 +196,8 @@
 				TargetAttributes = {
 					185785621E8A3BF400B75805 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 9Z59VK8KP3;
+						ProvisioningStyle = Manual;
 					};
 					185785761E8A3BF400B75805 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -233,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185785711E8A3BF400B75805 /* LaunchScreen.storyboard in Resources */,
+				185785971E8A3D4500B75805 /* checkered (6).png in Resources */,
 				1857856E1E8A3BF400B75805 /* Assets.xcassets in Resources */,
 				1857856C1E8A3BF400B75805 /* Main.storyboard in Resources */,
 			);
@@ -412,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Z59VK8KP3;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Immanent.SwiftDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.ngcgroupinc-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "da6b18b4-0f3d-4a39-9e90-502160485d8e";
+				PROVISIONING_PROFILE_SPECIFIER = NewTest;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Z59VK8KP3;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Immanent.SwiftDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.ngcgroupinc-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "da6b18b4-0f3d-4a39-9e90-502160485d8e";
+				PROVISIONING_PROFILE_SPECIFIER = NewTest;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
