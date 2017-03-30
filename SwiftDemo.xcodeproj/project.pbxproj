@@ -201,13 +201,14 @@
 					};
 					185785761E8A3BF400B75805 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JC39BY23BM;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 185785621E8A3BF400B75805;
 					};
 					185785811E8A3BF400B75805 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = JC39BY23BM;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 185785621E8A3BF400B75805;
 					};
 				};
@@ -456,7 +457,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Iqbal Singh (ZKG4WAM2JD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Iqbal Singh (ZKG4WAM2JD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JC39BY23BM;
 				INFOPLIST_FILE = SwiftDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Immanent.SwiftDemoTests;
@@ -472,7 +474,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Iqbal Singh (ZKG4WAM2JD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Iqbal Singh (ZKG4WAM2JD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Immanent.SwiftDemoTests;
@@ -487,14 +490,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Iqbal Singh (ZKG4WAM2JD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Iqbal Singh (ZKG4WAM2JD)";
-				DEVELOPMENT_TEAM = JC39BY23BM;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Immanent.SwiftDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "682da012-1ae3-45cd-a9ef-2838750c6ba0";
-				PROVISIONING_PROFILE_SPECIFIER = testDemo;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SwiftDemo;
 			};
@@ -505,14 +508,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Iqbal Singh (ZKG4WAM2JD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Iqbal Singh (ZKG4WAM2JD)";
-				DEVELOPMENT_TEAM = JC39BY23BM;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Immanent.SwiftDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "682da012-1ae3-45cd-a9ef-2838750c6ba0";
-				PROVISIONING_PROFILE_SPECIFIER = testDemo;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SwiftDemo;
 			};
