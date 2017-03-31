@@ -302,8 +302,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.immanent.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fd7fc270-d08f-46d0-bbba-08a23af8157e";
-				PROVISIONING_PROFILE_SPECIFIER = Demo;
+				PROVISIONING_PROFILE = "2db62a97-097f-4300-a7e1-a02f24653dfa";
+				PROVISIONING_PROFILE_SPECIFIER = demoProfile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -319,8 +319,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.immanent.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fd7fc270-d08f-46d0-bbba-08a23af8157e";
-				PROVISIONING_PROFILE_SPECIFIER = Demo;
+				PROVISIONING_PROFILE = "2db62a97-097f-4300-a7e1-a02f24653dfa";
+				PROVISIONING_PROFILE_SPECIFIER = demoProfile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
